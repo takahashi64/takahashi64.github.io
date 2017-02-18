@@ -5,7 +5,7 @@
  * Copyright 2011 Evan Wallace
  * Released under the MIT license
  */
-fx = (function() {
+fx = function() {
 var exports = {};
 
 // src/OES_texture_float_linear-polyfill.js
@@ -1835,4 +1835,4 @@ function swirl(centerX, centerY, radius, angle) {
 }
 
 return exports;
-})();
+};
